@@ -61,4 +61,6 @@ if __name__ == '__main__':
     bot = Bot()
     encoded_img = bot.encode_image(img_path)
     search_keywords = bot.respond(encoded_img)
+    assert type(search_keywords) == list
+    assert type(search_keywords[0]) == str
     print('Here are the search keywords...\n', search_keywords)

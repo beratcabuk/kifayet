@@ -152,3 +152,4 @@ cython_debug/
 #.idea/
 demo.ipynb
 *.png
+.DS_Store

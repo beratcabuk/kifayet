@@ -18,7 +18,7 @@ class GoogleShopping:
         self.driver = webdriver.Firefox(options=self.options)
         self.driver.get(WEBSITE_URL)
         sleep(2)
-        # Accept cookies to make the cookiewall go away.
+        # Accept cookies to make the cookie wall go away.
         cookie_acc_btn = self.driver.find_element(By.CSS_SELECTOR,
                                                   ACCEPT_COOKIES_CSS_SELECTOR)
         cookie_acc_btn.click()
@@ -56,10 +56,10 @@ class GoogleShopping:
         
         return links
 
-
     def __del__(self) -> None:
         sleep(0.5)
         self.driver.quit()
+
 
 if __name__ == '__main__':
     keywords = ['Denim trucker jacket blue', 'White crew neck t-shirt',

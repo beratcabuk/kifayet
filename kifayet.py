@@ -3,7 +3,9 @@ from chatbot import Bot
 from driver import GoogleShopping
 
 def main():
-    if sys.argv[1] == "-h" or sys.argv[1] == "--help":
+    if len(sys.argv) == 1:
+        print("Please supply an image file.\nTo get help, try: kifayet -h")
+    elif sys.argv[1] == "-h" or sys.argv[1] == "--help":
         print("usage: kifayet filename")
         sys.exit(0)
     else:

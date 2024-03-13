@@ -9,7 +9,7 @@
     ----------------------------------------
           a CLI app to steal styles
                                           
-kifayet is a CLI software for macOS that you can use to turn photographs of people into Google Shopping links.
+kifayet is a CLI software for macOS that you can use to turn photographs of people into Google Shopping links of their outfit pieces.
 
 # Installation
 kifayet is designed to portable. Drop the executable wherever, and create a .env file that contains your OpenAI API key like this:

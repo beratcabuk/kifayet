@@ -12,13 +12,13 @@
 kifayet is a CLI software for macOS that you can use to turn photographs of people into Google Shopping links of their outfit pieces.
 
 # Installation
-kifayet is designed to portable. Drop the executable wherever, and create a .env file that contains your OpenAI API key like this:
+kifayet is designed to portable. Drop the executable wherever, and create a file that contains your OpenAI API key like this:
 ```
-OPENAI_API_KEY=supersecretAPIkey_do_not_share
+supersecretAPIkey_do_not_share
 ```
 You're now good to go!
 # Usage
-Run these commands in a terminal running on the installation directory.
+Run these commands in a terminal running on the installation directory. You use kifayet by passing it the name of the image, and the name of the file that has the api key.
 ## To get help with the usage
 ```
 kifayet -h
@@ -29,5 +29,5 @@ kifayet --help
 ```
 ## To use
 ```
-kifayet imagename
+kifayet imagefile apikeyfile
 ```

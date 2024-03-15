@@ -32,4 +32,4 @@ On your terminal:
 ```
 ./kifayet imagefile apikeyfile
 ```
-and kifayet will output the links in a links.txt file.
+and kifayet will output the links in a ```links.txt``` file.

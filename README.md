@@ -21,13 +21,15 @@ You're now good to go!
 Run these commands in a terminal running on the installation directory. You use kifayet by passing it the name of the image, and the name of the file that has the api key.
 ## To get help with the usage
 ```
-kifayet -h
+./kifayet -h
 ```
 or
 ```
-kifayet --help
+./kifayet --help
 ```
 ## To use
+On your terminal:
 ```
-kifayet imagefile apikeyfile
+./kifayet imagefile apikeyfile
 ```
+and kifayet will output the links in a links.txt file.

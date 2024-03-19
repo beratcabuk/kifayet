@@ -19,6 +19,10 @@ supersecretAPIkey_do_not_share
 You're now good to go!
 # Usage
 Run these commands in a terminal running on the installation directory. You use kifayet by passing it the name of the image, and the name of the file that has the api key.
+You may need to make the file executable. You can do this by running:
+```
+chmod +x ./kifayet
+```
 ## To get help with the usage
 ```
 ./kifayet -h
